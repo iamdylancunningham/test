@@ -1,2 +1,0 @@
-# iamdylancunningham.github.io
-Portfolio
