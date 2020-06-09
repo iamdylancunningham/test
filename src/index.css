@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: #171427;
+}
+
+input[type="submit"]{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+h1{
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin: .5rem 0;
+
+}
+@media (max-width: 400px) {
+  h1{
+    font-size: 3.5rem;
+  }
+
+}
+
+h2{
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin: .5rem 0;
+
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #D1D0D4;
+  margin: .5rem 0;
+
+}
+p{
+  font-size: 1rem;
+  font-weight: 300;
+  color: #D1D0D4;
+  margin: .5rem 0;
+  max-width: 480px;
+
+}
+a.nav{
+  opacity: 0.4;
+  transition: opacity 0.5s;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.nav.is-active{
+  opacity: 1;
+}
+.top75px{
+  right: 0px !important;
+}
+::-webkit-scrollbar{width:15px}::-webkit-scrollbar-track{background:#29263c;border-radius:62px}::-webkit-scrollbar-thumb{background:#04a777;border-radius:60px}
